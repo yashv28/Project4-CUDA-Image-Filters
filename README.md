@@ -1,5 +1,5 @@
-CUDA Image Filters
-==================
+GPU Computed Image Filters
+==========================
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 4**
 
