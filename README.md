@@ -6,7 +6,7 @@ CUDA Image Filters
 * Yash Vardhan
 * Tested on: Windows 10 Pro, Intel i5-4200U (4) @ 2.600GHz 4GB, NVIDIA GeForce 840M 2048MB
 
-In this project, I have implemented a CUDA-based image filters through the use of GPU. I have implemented some awesome Computer Vision image filters like Bilateral Filter and HDR approximation filter(a.k.a. Tone Mapping). More to come soon!
+In this project, I have implemented a image filters through the use of GPU and CPU and performed an analysis between them. I have implemented two awesome Computer Vision image filters like Bilateral Filter and HDR approximation filter(a.k.a. Tone Mapping) by using OpenCV. More to come soon!
 
 # Features:
 * Bilateral Filter
@@ -33,25 +33,21 @@ This technique is used in image processing and computer graphics to map one set 
 
 ![](images/h2.jpg)
 
-![](images/h3.jpg)
+![](images/h4.jpg)
 
 # Performance Analysis:
 
-Bilateral Filter
-----------------
+![](images/bifchart.jpg)
+
 The block size was selected at 256 which was found to give the best performance in GPU.
 
 ![](images/bifgraph.jpg)
 
-![](images/bifchart.jpg)
+![](images/hdrchart.jpg)
 
-HDR Approximation Filter
-------------------------
 The block size was selected at 1024 which was found to give the best performance in GPU.
 
 ![](images/hdrgraph.jpg)
-
-![](images/hdrchart.jpg)
 
 # References:
 
