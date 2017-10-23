@@ -45,9 +45,15 @@ The block size was selected at 256 which was found to give the best performance 
 
 ![](images/hdrchart.jpg)
 
-The block size was selected at 1024 which was found to give the best performance in GPU.
+The block size was selected at 1024 which was found to give the best performance in GPU. You can see here that HDR tone mapping done on GPU using global memory take more time to compute than the CPU. This shows how important the use of shared memory is to maximize the eficiency of GPU's parallelism.
 
 ![](images/hdrgraph.jpg)
+
+# Bloopers:
+
+When you are bound by your GPU's maximum number of threads per block: Messed-up color channel!! :P
+
+![](images/blooper.jpg)
 
 # References:
 
